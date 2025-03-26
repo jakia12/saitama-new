@@ -1,13 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
 :root {
   --pink: #c12809;
   --white: white;
   --black: black;
 }
 
+@font-face {
+  font-family: 'Osake';
+  src: url('../fonts/Osake.otf');
+}
+
 .section_hero {
   /* background-image: url('../images/bg.jpg'); */
-  background: linear-gradient(rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.12)),
-    url("../images/bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)),
+    url("../images/SAITAMA_banner2.png");
   background-repeat: no-repeat;
   background-position: 50%;
   background-size: cover;
@@ -70,7 +77,8 @@
   width: auto;
   height: 50px;
   padding: 3px 50px 0;
-  font-family: Japanese Robot, sans-serif;
+  /* font-family: Japanese Robot, sans-serif; */
+  font-family: "RocknRoll One", sans-serif;
   font-size: 20px;
   line-height: 20px;
   display: flex;
@@ -95,7 +103,7 @@
 }
 
 .title_hero {
-  font-family: Japanese Robot, sans-serif;
+  font-family: 'Osake', sans-serif;
   font-size: 180px;
   line-height: 150px;
   color: #fff;
@@ -111,7 +119,8 @@
   background-color: #0000;
   margin-right: 40px;
   padding: 0;
-  font-family: Japanese Robot, sans-serif;
+  /* font-family: Japanese Robot, sans-serif; */
+  font-family: "RocknRoll One", sans-serif;
   font-size: 22px;
   line-height: 25px;
 }
@@ -181,7 +190,7 @@
 
 .h1 {
   color: #fff;
-  font-family: Japanese Robot, sans-serif;
+  font-family: Osake, sans-serif;
   font-size: 90px;
   line-height: 90px;
 }
@@ -337,7 +346,7 @@
 
 .h2 {
   color: #000;
-  font-family: Japanese Robot, sans-serif;
+  font-family: 'Osake', sans-serif;
   font-size: 25px;
   line-height: 25px;
 }
@@ -470,7 +479,7 @@
 
 .h3 {
   color: #ffe7a1;
-  font-family: Japanese Robot, sans-serif;
+  font-family: 'Osake', sans-serif;
   font-size: 25px;
   line-height: 25px;
 }
@@ -531,7 +540,7 @@
 
 .title_footer {
   margin-top: 75px;
-  font-family: Japanese Robot, sans-serif;
+  font-family:  'Osake', sans-serif;
   font-size: 180px;
   line-height: 150px;
   color: #fff;
@@ -802,7 +811,7 @@
 }
 
 .title_welcome {
-  font-family: Japanese Robot, sans-serif;
+  font-family: 'Osake', sans-serif;
   font-size: 180px;
   line-height: 150px;
   color: #fff;
